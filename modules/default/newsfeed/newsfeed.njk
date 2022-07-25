@@ -28,7 +28,7 @@
             {% for item in items %}
                 <li>
                     {% if (config.showSourceTitle and item.sourceTitle) or config.showPublishDate %}
-                        <div class="newsfeed-source bright">
+                        <div class="newsfeed-source bright medium light">
                             {% if item.sourceTitle and config.showSourceTitle %}
                                 {{ item.sourceTitle }}{% if config.showPublishDate %}, {% else %}: {% endif %}
                             {% endif %}
@@ -37,7 +37,7 @@
                             {% endif %}
                         </div>
                     {% endif %}
-                    <div class="newsfeed-title bright{{ ' no-wrap' if not config.wrapTitle }}">
+                    <div class="newsfeed-title bright medium light{{ ' no-wrap' if not config.wrapTitle }}">
                         {{ escapeTitle(item.title, item.url, config.dangerouslyDisableAutoEscaping, config.showTitleAsUrl) }}
                     </div>
                     {% if config.showDescription %}
@@ -55,7 +55,7 @@
     {% else %}
         <div>
             {% if (config.showSourceTitle and sourceTitle) or config.showPublishDate %}
-                <div class="newsfeed-source light small dimmed">
+                <div class="newsfeed-source bright medium light">
                     {% if sourceTitle and config.showSourceTitle %}
                         {{ escapeText(sourceTitle, config.dangerouslyDisableAutoEscaping) }}{% if config.showPublishDate %}, {% else %}: {% endif %}
                     {% endif %}
