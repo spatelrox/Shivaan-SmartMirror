@@ -9,8 +9,8 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			morning: ["Good Morning!", "Have a great day!"],
-			afternoon: ["Good afternoon!", "How was your lunch today?"],
-			evening: ["Good evening!", "How was your day today?"],
+			afternoon: ["Good afternoon!", "How was your lunch?", "Have an amazing rest of your day!],
+			evening: ["Good evening!", "How was your day today?, "I hope you had a fantastic day!],
 			"....-04-03": ["Happy Birthday Shivaan!"],
 			"....-04-09": ["Happy Birthday Shikha Didi!"],
 			"....-04-19": ["Happy Birthday Dad!"],
