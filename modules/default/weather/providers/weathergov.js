@@ -23,18 +23,18 @@ WeatherProvider.register("weathergov", {
 	defaults: {
 		apiBase: "https://api.weather.gov/points/",
 		weatherEndpoint: "/forecast",
-		lat: 0,
-		lon: 0
+		lat: 37.3863287,
+		lon: -121.8605104
 	},
 
 	// Flag all needed URLs availability
 	configURLs: false,
 
 	//This API has multiple urls involved
-	forecastURL: "tbd",
-	forecastHourlyURL: "tbd",
-	forecastGridDataURL: "tbd",
-	observationStationsURL: "tbd",
+	forecastURL: "https://api.weather.gov/gridpoints/MTR/101,84/forecast",
+	forecastHourlyURL: "https://api.weather.gov/gridpoints/MTR/101,84/forecast/hourly",
+	forecastGridDataURL: "https://api.weather.gov/gridpoints/MTR/101,84",
+	observationStationsURL: "https://api.weather.gov/gridpoints/MTR/101,84/stations",
 	stationObsURL: "tbd",
 
 	// Called to set the config, this config is the same as the weather module's config.
