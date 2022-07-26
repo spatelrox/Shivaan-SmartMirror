@@ -21,7 +21,7 @@ WeatherProvider.register("weathergov", {
 
 	// Set the default config properties that is specific to this provider
 	defaults: {
-		apiBase: "https://api.weather.gov/points/",
+		apiBase: "https://api.weather.gov",
 		weatherEndpoint: "/forecast",
 		lat: 0,
 		lon: 0
