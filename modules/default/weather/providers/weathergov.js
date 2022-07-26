@@ -17,7 +17,7 @@ WeatherProvider.register("weathergov", {
 	// Set the name of the provider.
 	// This isn't strictly necessary, since it will fallback to the provider identifier
 	// But for debugging (and future alerts) it would be nice to have the real name.
-	providerName: "Weather.gov",
+	providerName: "weather.gov",
 
 	// Set the default config properties that is specific to this provider
 	defaults: {
@@ -35,7 +35,7 @@ WeatherProvider.register("weathergov", {
 	forecastHourlyURL: "https://api.weather.gov/gridpoints/MTR/101,84/forecast/hourly",
 	forecastGridDataURL: "https://api.weather.gov/gridpoints/MTR/101,84",
 	observationStationsURL: "https://api.weather.gov/gridpoints/MTR/101,84/stations",
-	stationObsURL: "tbd",
+	stationObsURL: "https://api.weather.gov/gridpoints/MTR/101,84/stations",
 
 	// Called to set the config, this config is the same as the weather module's config.
 	setConfig: function (config) {
