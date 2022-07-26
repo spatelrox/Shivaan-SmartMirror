@@ -48,7 +48,7 @@ Module.register("weather", {
 	},
 
 	// Module properties.
-	weatherProvider: weathergov,
+	weatherProvider: null,
 
 	// Can be used by the provider to display location of event if nothing else is specified
 	firstEvent: null,
