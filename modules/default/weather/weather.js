@@ -9,13 +9,13 @@
 Module.register("weather", {
 	// Default module config.
 	defaults: {
-		weatherProvider: "weathergov",
+		weatherProvider: "openweathermap",
 		roundTemp: false,
 		type: "current", // current, forecast, daily (equivalent to forecast), hourly (only with OpenWeatherMap /onecall endpoint)
-		units: config.units,
+		units: imperial,
 		useKmh: false,
-		tempUnits: config.units,
-		windUnits: config.units,
+		tempUnits: imperial,
+		windUnits: imperial,
 		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,
 		timeFormat: config.timeFormat,
