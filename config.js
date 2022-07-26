@@ -29,8 +29,8 @@ let config = {
 	language: "en",
 	locale: "en-US",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
-	timeFormat: 24,
-	units: "metric",
+	timeFormat: 12,
+	units: "imperial",
 	// serverOnly:  true/false/"local" ,
 	// local for armv6l processors, default
 	//   starts serveronly and then starts chrome browser
@@ -70,11 +70,11 @@ let config = {
 			module: "weather",
 			position: "top_right",
 			config: {
-				weatherProvider: "openweathermap",
+				weatherProvider: "weatherbit",
 				type: "current",
-				location: "New York",
+				location: "San Jose, California",
 				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				apiKey: "5f41a41f34fe412caf4f5e6d9677933d"
 			}
 		},
 		{
@@ -82,11 +82,11 @@ let config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				weatherProvider: "openweathermap",
+				weatherProvider: "weatherbit",
 				type: "forecast",
-				location: "New York",
+				location: "San Jose, California",
 				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				apiKey: "5f41a41f34fe412caf4f5e6d9677933d"
 			}
 		},
 		{
