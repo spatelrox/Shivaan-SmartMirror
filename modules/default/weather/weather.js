@@ -48,7 +48,7 @@ Module.register("weather", {
 	},
 
 	// Module properties.
-	weatherProvider: null,
+	weatherProvider: "weatherbit",
 
 	// Can be used by the provider to display location of event if nothing else is specified
 	firstEvent: null,
