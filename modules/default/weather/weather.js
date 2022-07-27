@@ -46,7 +46,7 @@ Module.register("weather", {
 		showFeelsLike: true,
 		absoluteDates: false
 	},
-
+print("hello");
 	// Module properties.
 	weatherProvider: "weatherbit",
 
