@@ -9,7 +9,7 @@
 Module.register("weather", {
 	// Default module config.
 	defaults: {
-		weatherProvider: "weather gov",
+		weatherProvider: "weatherbit",
 		roundTemp: false,
 		type: "current", // current, forecast, daily (equivalent to forecast), hourly (only with OpenWeatherMap /onecall endpoint)
 		units: config.units,
