@@ -72,8 +72,8 @@ let config = {
 			config: {
 				weatherProvider: "weatherbit",
 				type: "current",
-				location: "San Jose, California",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				location: "San Jose, CA",
+				locationID: "5392171", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				apiKey: "5f41a41f34fe412caf4f5e6d9677933d"
 			}
 		},
@@ -84,8 +84,8 @@ let config = {
 			config: {
 				weatherProvider: "weatherbit",
 				type: "forecast",
-				location: "San Jose, California",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				location: "San Jose, CA",
+				locationID: "5392171", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				apiKey: "5f41a41f34fe412caf4f5e6d9677933d"
 			}
 		},
